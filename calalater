@@ -1,0 +1,43 @@
+print("wellcome to porly spelld calalater")
+print("type c to clear calalater")
+#adddsum = (int(numb1) + int(numb2))
+#mulitplyproduct = (int(numb1) * int(numb2))
+#subtratanswer = (int(numb1) - int(numb2))
+#diviseanswer = (int(numb1) / int(numb2))
+#exponantanswer = (int(numb1) ** int(numb2))
+while(True):
+    sign = input("typ from thih list what u would want to du: addd / mulitply / subtrat / divise / exponant: ")
+    numb1 = input("puht a numer: ")
+    if(numb1 == "c"):
+        break
+    else:
+        numb2 = input("puht a secund numer: ")
+        if(numb2 == "c"):
+            break
+        else:
+            addd = (int(numb1) + int(numb2))
+            mulitply = (int(numb1) * int(numb2))
+            subtrat = (int(numb1) - int(numb2))
+            divise = (int(numb1) / int(numb2))
+            exponant = (int(numb1) ** int(numb2))
+            adddsum = (int(numb1) + int(numb2))
+            mulitplyproduct = (int(numb1) * int(numb2))
+            subtratanswer = (int(numb1) - int(numb2))
+            diviseanswer = (int(numb1) / int(numb2))
+            exponantanswer = (int(numb1) ** int(numb2))
+            match sign:
+                case "addd":
+                    print("yu ar doig " + numb1 + " plu " + numb2 + " and yur anwser eqals " + str(adddsum))
+                case "mulitply":
+                    print("yu ar doig " + numb1 + " tims " + numb2 + " and yur anwser eqals " + str(mulitplyproduct))
+                case "subtrat":
+                    print("yu ar doig " + numb1 + " minas " + numb2 + " and yur anwser eqals " + str(subtratanswer))
+                case"divise":
+                    print("yu ar doig " + numb1 + " divised by " + numb2 + " and yur anwser eqals " + str(diviseanswer))
+                case"exponant":
+                    print("yu ar doig " + numb1 + " to teh powr off " + numb2 + " and yur anwser eqals " + str(exponantanswer))
+            repeat = input("do u wan tu do onather maht prolbem? ")
+            if(repeat == "no"):
+                break
+            else:
+                continue
