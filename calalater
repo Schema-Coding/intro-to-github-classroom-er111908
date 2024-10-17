@@ -37,7 +37,7 @@ while(True):
                 case"exponant":
                     print("yu ar doig " + numb1 + " to teh powr off " + numb2 + " and yur anwser eqals " + str(exponantanswer))
             repeat = input("do u wan tu do onather maht prolbem? ")
-            if(repeat == "no"):
+            if(repeat == "no" or "c"):
                 break
             else:
                 continue
